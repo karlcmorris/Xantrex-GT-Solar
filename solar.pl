@@ -6,7 +6,8 @@ use HTTP::Status qw(:constants :is status_message);
 $debug = 0;
 $submit = 1;
 $serial_port = "/dev/ttyUSB0";
-$pvoutput_api ="5f600268ece89c7ec404d471550a93cc7c40962d";
+# pv output API
+$pvoutput_api ="xxxxxxxxxxxxxxxxxxx";
 $pvoutport_systemid = "35607";
  
 $serial_lock = "/tmp/ttyUSB0.lock";
